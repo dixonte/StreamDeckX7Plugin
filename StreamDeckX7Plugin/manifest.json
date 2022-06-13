@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/SpeakerHeadphoneToggleIcon",
+      "Name": "Toggle Speaker/Headphone Output",
+      "States": [
+        {
+          "Image": "images/SpeakerHeadphoneToggleDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Swap between the last speaker configuration and the headphone output.",
+      "UUID": "com.heavybell.x7plugin.SpeakerHeadphoneToggle.action"
+    }
+  ],
+  "Category": "Sound Blaster X7",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "T E Dixon",
+  "CodePathWin": "StreamDeckX7Plugin.exe",
+  "CodePathMac": "StreamDeckX7Plugin",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Control your Sound Blaster X7 from your Stream Deck.",
+  "Name": "X7Plugin",
+  "Icon": "images/pluginIcon",
+  "URL": "https://github.com/dixonte",
+  "Version": "1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
